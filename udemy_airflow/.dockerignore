@@ -6,3 +6,6 @@ logs/
 .venv
 airflow.db
 airflow.cfg
+# negeer MinIO runtime-data
+include/data/minio/.minio.sys/
+include/data/minio/.minio.sys/*
